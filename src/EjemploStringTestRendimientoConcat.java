@@ -17,6 +17,8 @@ public class EjemploStringTestRendimientoConcat {
         }
 
 
+        System.gc(); // se invoca el garbage collector para liberar espacio System.gc(); para reciclar y limpair estancias
+
         long fin =System.currentTimeMillis();
         System.out.println(fin - inicio);
         System.out.println("c = " + c);
